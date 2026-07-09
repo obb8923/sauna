@@ -1,0 +1,34 @@
+# deps
+node_modules/
+.pnp
+.pnp.js
+
+# env / secrets
+.env
+.env*.local
+.env.local
+!.env.example
+
+# expo (app/)
+app/.expo/
+app/dist/
+app/ios/
+app/android/
+*.orig.*
+app/web-build/
+
+# next (web/)
+web/.next/
+web/out/
+web/build/
+web/.vercel/
+next-env.d.ts
+
+# misc
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+*.tsbuildinfo
